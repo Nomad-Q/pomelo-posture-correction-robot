@@ -1,1 +1,15 @@
-# pomelo-posture-correction-robot
+# pomelo-posture-correction-robot 项目使用指导
+
+## 1. 硬件组装
+
+### 1. 机械臂
+
+(1)机械臂在通电之后，长按机械臂自带的控制板左上角的开关启动控制面板。
+
+(2)点击界面上的机械臂图标，点击保存和启动，启动机械臂控制。
+
+(3)将机械臂通过网线连接到PC上，机械臂的网口位于控制箱上。
+
+(4)在PC端修改robotcontrol.py中IP和port数据。
+
+(5)调用init_robot方法，测试机械臂是否联通成功。
